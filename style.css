@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#div-1{
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: #316DC3;
+    text-align: center;
+}
+.img-1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.img-2, .img-3, .img-4, .img-5{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.text-1{
+    color: white;
+    margin-left: 5%;
+}
+.btn-group-1{
+    margin-left: 5%;
+}
+.btn-1{
+    color: #427900;
+    padding: 0.8em;
+    border: 1px solid #427900;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.btn-1:hover{
+    cursor: pointer;
+}
+#nav-1{
+    padding: 0.5em;
+    text-align: center;
+    background-color: white;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    box-shadow: 1px 0.5px 5px 1px black;
+    z-index: 1;
+}
+.img-6{
+    width: 191px;
+    height: 51px;
+}
+.btn-2{
+    padding: 0.8em 1em;
+    border-radius: 25px;
+    border-width: 0px;
+    background-color: white;
+    vertical-align: 15px;
+    margin-left: 1%;
+    color:#666666;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.btns{
+    margin-left: 10%;
+}
+.btn-2:hover{
+    cursor: pointer;
+    background-color: #316DC3;
+    color: white;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+.btn-2, .btn-1:focus{
+    outline-width: 0px;
+}
+.btn-2:focus{
+    background-color: #316DC3;
+    color: white;
+}
+.img-7{
+    width: 100%;
+    height: 400px;
+}
+#div-2{
+    text-align: center;
+    padding: 1em;
+}
+.span-1{
+    background-color: #316DC3;
+    color: white;
+    padding: 0.5em;
+    display: block;
+    text-align: center;
+}
+#heading-1{
+    color: rgb(109, 173, 13);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+#div-3{
+    text-align: center;
+    margin-top: 10px;
+}
+#div-4{
+    color: #666666;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+#divider{
+    background-color:#f7f8fa;
+    text-align: center;
+    padding-bottom: 5.2em;
+}
+.img-8{
+    border-radius: 50%;
+}
+.blue-div{
+    background-color: rgba(0, 53, 245, 0.8);
+    padding: 4em;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+
+}
+.h-1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-div div{
+    display: inline-block;
+    padding: 2em;
+    line-height: 60px;
+}
+#h-2{
+    padding-top: 30px;
+    text-align: center;
+}
+#dividend{
+    text-align: center;
+    background-color:#f7f8fa;
+    padding-bottom: 50px;
+
+}
+.img-10, .img-8{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.dividend-1,.dividend-2,.dividend-3,.dividend-4,.dividend-5,.dividend-6{
+    width: 360px;
+    height: 185px;
+    display: inline-block;
+    box-shadow: 1px 1px 5px 3px black;
+    margin: 10px;
+    padding: 20px;
+    color: #316DC3;
+}
+#foot{
+    background-color: rgb(29, 33, 37);
+    color: #818181;
+    padding: 4em;
+    text-align: center;
+}
+.foot-1{
+    padding: 1em;
+    background-color: #316DC3;
+    color: white;
+    text-align: center;
+}
+.Head-office{
+    display: inline-block;
+    margin-right: 40px;
+    text-align: justify;
+}
+.Links{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.Connect{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.mission{
+    display: inline-block;
+    padding: 3em;
+    text-align: justify;
+}
+.it{
+    width: 390px;
+    height: 93px;
+    background-color: #e6e6e6;
+    display: inline-block;
+    padding: 2em;
+}
+.missions{
+    text-align: center;
+}
+.objective{
+    display: inline-block;
+    vertical-align: top;
+    padding: 3em;
+    text-align: justify;
+}
+.it span{
+    margin-left: 30px;
+    font-weight: bold;
+    color: #316DC3;
+    font-size: 20px;
+}
+.gallery{
+    padding: 3em;
+    text-align: center;
+}
+.gallery .galleries{
+    width: 226px;
+    height: 150px;
+}
+.gallery .galleries:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px black;
+}
+@media only screen and (max-width: 1150px){
+    .text-1{
+        display: none;
+    }
+    .dividend-1, .dividend-2, .dividend-3, .dividend-4, .dividend-5, .dividend-6{
+        width: 100%;
+    }
+    .blue-div div{
+        display: block;
+    }
+}
+@media only screen and (max-width: 850px){
+    .img-6{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px){
+    .mission{
+        display: none;
+    }
+}
+body{
+    min-width: 570px;
+}
